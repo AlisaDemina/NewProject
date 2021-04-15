@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export class Menu extends React.Component{
     render() {
         return (
@@ -25,6 +26,13 @@ export class Menu extends React.Component{
                             </li>
                             <li className="nav-item"><a className="nav-link js-scroll-trigger"
                                                         href="#contact">Contact</a></li>
+                            <li className="nav-item"><a className="nav-link js-scroll-trigger"
+                                                        href="#study">Study</a></li>
+                            <li className="nav-item"><a className="nav-link js-scroll-trigger"
+                                                        href="#test">Test</a></li>
+                            <li className="nav-item"><a className="nav-link js-scroll-trigger"
+                                                        href="#registration">Registration</a></li>
+
                         </ul>
                     </div>
                 </div>

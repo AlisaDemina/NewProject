@@ -14,25 +14,33 @@ import {PortfolioModal3} from "./components/PortfolioModal3";
 import {PortfolioModal4} from "./components/PortfolioModal4";
 import {PortfolioModal5} from "./components/PortfolioModal5";
 import {PortfolioModal6} from "./components/PortfolioModal6";
+import {Study} from "./components/Study";
+import {Test} from "./components/Test";
+import {Registration} from "./components/Registration";
+
 
 function App() {
   return (
     <div>
-    <Menu/>
-    <Main/>
-    <Services/>
-    <PortfolioGrid/>
-    <About/>
-    <Team/>
-    <Clients/>
-    <Contact/>
-    <Footer/>
-    <PortfolioModal1/>
-    <PortfolioModal2/>
-    <PortfolioModal3/>
-    <PortfolioModal4/>
-    <PortfolioModal5/>
-    <PortfolioModal6/>
+        <Menu/>
+        <Main/>
+        <Services/>
+        <PortfolioGrid/>
+        <About/>
+        <Team/>
+        <Clients/>
+        <Registration/>
+        <Study/>
+        <Test/>
+        <Contact/>
+        <Footer/>
+        <PortfolioModal1/>
+        <PortfolioModal2/>
+        <PortfolioModal3/>
+        <PortfolioModal4/>
+        <PortfolioModal5/>
+        <PortfolioModal6/>
+
     </div>
   );
 }
